@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@color/background_color">
+
+    <!-- Website Name -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/websiteNameInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/website_name_hint"
+        app:startIconDrawable="@drawable/ic_website">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/websiteNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:importantForAccessibility="yes"
+            android:contentDescription="@string/website_name_description" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Username -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/usernameInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username_hint"
+        app:startIconDrawable="@drawable/ic_username">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/usernameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:importantForAccessibility="yes"
+            android:contentDescription="@string/username_description" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Password -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_hint"
+        app:startIconDrawable="@drawable/ic_password">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:importantForAccessibility="yes"
+            android:contentDescription="@string/password_description" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Password Visibility Toggle -->
+    <CheckBox
+        android:id="@+id/showPasswordCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_password"
+        android:textColor="?attr/colorPrimary" />
+
+    <!-- Generate Password Button -->
+    <Button
+        android:id="@+id/generatePasswordButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/generate_password"
+        android:textColor="?attr/colorPrimary"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/transparent"
+        android:contentDescription="@string/generate_password_button_description" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:textColor="@android:color/white"
+        android:backgroundTint="?attr/colorAccent"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/save_button_description" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_data_input"
+        android:title="@string/home"
+        android:icon="@drawable/ic_data_input" />
+
+    <item
+        android:id="@+id/action_password_list"
+        android:title="@string/password_list"
+        android:icon="@drawable/ic_password_list" />
+
+</menu>

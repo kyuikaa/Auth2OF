@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="saved_passwords">Saved Passwords</string>
+    <string name="no_passwords_saved">No Passwords Saved</string>
+</resources>

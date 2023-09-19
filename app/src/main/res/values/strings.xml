@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Auth2OF</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="password_list">Password List</string>
+    <string name="appname">Auth2OF</string>
+    <string name="add_password">Add Password</string>
+    <string name="saved_passwords">Saved Passwords</string>
+    <string name="no_passwords_saved">No Passwords Saved</string>
+    <string name="save">Save</string>
+    <string name="save_button">Save Button</string>
+    <string name="password_input">Password Input</string>
+    <string name="password">Password</string>
+    <string name="username_input">Username Input</string>
+    <string name="username">Username</string>
+    <string name="website_name_input">Website Name Input</string>
+    <string name="website_name">Website Name</string>
+    <string name="save_button_description">Save</string>
+    <string name="show_password">Show Password</string>
+    <string name="password_description">Password Description</string>
+    <string name="password_hint">Password</string>
+    <string name="username_description">Username Description</string>
+    <string name="username_hint">Username</string>
+    <string name="website_name_description">Website Description</string>
+    <string name="website_name_hint">Website</string>
+    <string name="generate_password">Generate</string>
+    <string name="generate_password_button_description">Generate Password Description</string>
+</resources>
